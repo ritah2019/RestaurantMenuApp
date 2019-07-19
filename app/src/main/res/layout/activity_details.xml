@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="match_parent"
+        tools:context=".details">
+    <TextView
+            android:text="Name"
+            android:textColor="#bf1e2e"
+            android:layout_width="186dp"
+            android:textSize="19sp"
+            android:layout_height="85dp" android:layout_alignParentBottom="true" android:layout_marginBottom="262dp"
+            android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+            android:layout_marginRight="114dp" android:layout_marginEnd="114dp" android:layout_alignParentStart="true"
+            android:layout_marginLeft="110dp" android:layout_marginStart="110dp" android:layout_alignParentLeft="true"
+            android:id="@+id/name"/>
+    <ImageView
+            android:id="@+id/foodimage"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"/>
+
+    <TextView
+            android:textColor="#bf1e2e"
+            android:text="Price"
+            android:layout_width="186dp"
+            android:textSize="19sp"
+            android:layout_height="89dp" android:layout_marginBottom="170dp" android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+            android:layout_marginRight="214dp" android:layout_marginEnd="214dp" android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp" android:layout_marginStart="10dp" android:layout_alignParentLeft="true"
+            android:id="@+id/textname"/>
+    <TextView
+            android:text="Description"
+            android:layout_width="186dp"
+            android:textColor="#bf1e2e"
+            android:textSize="19sp"
+            android:layout_height="85dp" android:layout_alignParentBottom="true" android:layout_marginBottom="73dp"
+            android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+            android:layout_marginRight="216dp" android:layout_marginEnd="216dp" android:layout_alignParentStart="true"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_alignParentLeft="true"
+            android:id="@+id/textprice"/>
+
+
+    <TextView
+            android:text="price"
+            android:textSize="19sp"
+            android:textColor="#bf1e2e"
+            android:id="@+id/price"
+            android:layout_width="186dp"
+            android:layout_height="89dp" android:layout_marginBottom="167dp" android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp" android:layout_marginEnd="14dp" android:layout_alignParentStart="true"
+            android:layout_marginLeft="210dp" android:layout_marginStart="210dp" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:text="description"
+            android:textColor="#bf1e2e"
+            android:layout_width="wrap_content"
+            android:id="@+id/description"
+            android:textSize="19sp"
+            android:layout_height="147dp" android:layout_alignParentBottom="true" android:layout_marginBottom="9dp"
+            android:layout_alignParentEnd="true" android:layout_alignParentRight="true"
+            android:layout_marginRight="-2dp" android:layout_marginEnd="-2dp" android:layout_alignParentStart="true"
+            android:layout_marginLeft="199dp" android:layout_marginStart="199dp" android:layout_alignParentLeft="true"/>
+
+
+
+
+</RelativeLayout>
